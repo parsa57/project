@@ -168,3 +168,13 @@ h3 {
   border-radius: 10px;
   color: floralwhite;
 }
+
+.skills{
+  padding:  7px;
+  display: inline-block;
+  width:  400px;
+  float: center;
+  border: solid;
+  border-radius: 10px;
+  color: floralwhite;
+}
