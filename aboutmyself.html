@@ -22,6 +22,15 @@
 	</ul>
 	<img src="selfie.png">
 	<p>this is a picture of me. I know I'm ugly.</p>
+
+	<p>last modified:</p>
+	<p id="demo"></p>
+
+	<script>
+		const date = new Date(document.lastModified);
+		document.getElementById("demo").innerHTML = date;
+	</script>
+
 	<p>would you like to know more about me?</p>
 
 	<p>you might be surprised to know that the culinary ways are a <a href="cooking.html"><button>special interest</button></a> of mine.</p>
@@ -75,13 +84,7 @@
 		</ul>
 	</p></div>
 
-<p>last modified:</p>
-<p id="demo"></p>
 
-<script>
-	const date = new Date(document.lastModified);
-	document.getElementById("demo").innerHTML = date;
-</script>
 
 
 
