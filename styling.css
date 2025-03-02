@@ -1,0 +1,170 @@
+body {
+  background-color: #660033;
+}
+
+h1 {
+  color: floralwhite;
+  margin-left: 50px;
+  text-shadow: 2px 2px 7px;
+
+}
+
+p {
+  color: floralwhite;
+}
+
+.welcome {
+  color: floralwhite;
+  margin-left: 50px;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ffb38a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #005F60;
+}
+
+.cooking {
+  padding: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+button {
+  border: 2px solid wheat;
+  border-radius: 7px;
+  background-color: #005F60;
+  color: wheat;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 7px;
+}
+
+button:hover {background-color: #005F60}
+
+button:active {
+  background-color: #005F60;
+  box-shadow: 2px 2px 7px;
+  transform: translateY(4px);
+}
+
+/* .burnt {
+  padding: 7px;
+  border: solid;
+  border-color: #ffb38a;
+  box-shadow: 2px 5px 10px;
+}*/
+
+/*div.polaroid {
+  background-color: floralwhite;
+  box-shadow: 0 4px 8px;
+  margin-bottom: 20px;
+}
+
+div.container {
+  text-align: center;
+  padding: 3px 3px;
+}*/
+
+* {
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: left;
+}
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 5px 5px 7px;
+  transform: rotate(10deg);
+  
+}
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  font-family: 'Brush Script MT', cursive;
+  font-size: 1.8rem;
+  text-align: center;
+  line-height: 2em;
+}
+.item {
+  width: 30%;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.crediting {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h3 {
+
+  color: floralwhite;
+  text-shadow: 3px 3px 8px;
+}
+
+.cookingquote{
+  padding: 4px;
+  border-style: outset;
+  border-width: 2px;
+  border-radius: 10px;
+  font-size: 50px;
+  text-align: center;
+  color: floralwhite;
+  
+}
+
+.hated{
+  padding:  7px;
+  display: inline-block;
+  width:  350px;
+  border: solid;
+  border-radius: 10px;
+  color: floralwhite;
+  float: left;
+}
+
+.grateful{
+  padding:  7px;
+  display: inline-block;
+  width:  200px;
+  float: center;
+  border: solid;
+  border-radius: 10px;
+  color: floralwhite;
+}
